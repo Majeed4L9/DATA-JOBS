@@ -71,7 +71,7 @@ Each jupyter notebook for this project aimed at investigating specific aspects o
 
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I am targeting.
 
-View my notebook with detailed steps here: [2_Skills_count](PROJECT_1\2_Skills_count.ipynb)
+View my notebook with detailed steps here: [2_Skills_count](PROJECT_1\2_Skills_count.ipynb).
 
 ### Visualize Data
 
@@ -97,6 +97,10 @@ plt.show()
 - Data Engineers require more specialized technical skills (AWS, Azure, Spark) compared to Data Analysts and Data Scientists who are expected to be proficient in more general data management and analysis tool (Excel, Tableau).
 
 ## 2. How are in-demand skills trending for Data Analysts?
+
+To find how skills are trending in 2023 for Data Analysts, I filtered data analyst positions and grouped the skills by the month of the job postings. This got me the top 6 skills of data analysts by month, showing how popular skills were throughout 2023.
+
+View my notebook with detailed steps here: [3_Skills_Trend](PROJECT_1\3_Skills_Trend.ipynb).
 
 ### Visualize Data
 
@@ -126,7 +130,9 @@ plt.show()
 
 ## 3. How well do jobs and skills pay for Data Analysts?
 
-### Salary Analysis for Data Nerds
+To identify the highest-paying roles and skills, I only got jobs in the United States and looked at their median salary. But first I looked at the salary distribution of common jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs are paid the most.
+
+View my notebook with detailed steps here: [4_Salary_Analysis](PROJECT_1\4_Salary_Analysis.ipynb).
 
 #### Visualize Data 
 
@@ -152,6 +158,8 @@ plt.show()
 - The median salaries increase with the seniority and specialization of the roles. Senior roles(Senior Data Scientist, Senior Data Engineer) not only have higher median salaries but also larger differences in typical salaries, reflecting greater variance in compensation as responsibilities increase.
 
 ### Highest Paid & Most Demanded Skills for Data Analysts
+
+View my notebook with detailed steps here: [4_Salary_Analysis](PROJECT_1\4_Salary_Analysis.ipynb).
 
 #### Visualize Data
 
@@ -185,6 +193,11 @@ Here's the breakdown of the highest paid and most demanded skills for Data Analy
 - There's a clear distinction between the skills that are highest paid and those that are most in-demand. Data Analysts aiming to maximize their career potential should consider developing a diverse skill set that includes both high-paying specialized skills and widely demanded foundational skills.
 
 ## 4. What is the most optimal skill to learn for Data Analysts?
+
+To identify the most optimal skill for Data Analysts, I filtered data analyst positions and grouped the median
+salaries by job skills. This analysis revealed the top 12 skills for data analysts, showing how popular skills correlate with their salaries.
+
+View my notebook with detailed steps here: [5_Optimal_Skills](PROJECT_1\5_Optimal_Skills.ipynb).
 
 #### Visualize Data
 
