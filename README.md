@@ -159,7 +159,7 @@ plt.show()
 
 ### Highest Paid & Most Demanded Skills for Data Analysts
 
-View my notebook with detailed steps here: [4_Salary_Analysis](PROJECT_1\4_Salary_Analysis.ipynb).
+View my notebook with detailed steps here: [4_Salary_Analysis](./PROJECT_1\4_Salary_Analysis.ipynb).
 
 #### Visualize Data
 
